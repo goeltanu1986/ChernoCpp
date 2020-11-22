@@ -247,6 +247,7 @@ int main()
         std::cout << numRing.get(i) << std::endl;
     }*/
 
+    // Printing out the ring buffer values
     for(ring<int>::iterator itr = numRing.begin(); itr != numRing.end(); itr++)
     {
         std::cout << (*itr) << std::endl;
