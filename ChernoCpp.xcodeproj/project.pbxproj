@@ -11,6 +11,7 @@
 		0827B6EE24C612CF0051C17C /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0827B6EC24C612CF0051C17C /* BinarySearchTree.cpp */; };
 		0827B6F124C6620F0051C17C /* BreadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0827B6F024C6620E0051C17C /* BreadthFirstSearch.cpp */; };
 		0827B6F424C6622E0051C17C /* DepthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0827B6F224C6622E0051C17C /* DepthFirstSearch.cpp */; };
+		0846250C256B07C100393315 /* GreenBookProb1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0846250A256B07C100393315 /* GreenBookProb1.cpp */; };
 		087DD18924BBABDC00BA6E0B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 087DD18824BBABDC00BA6E0B /* main.cpp */; };
 		087DD19524BBB2AD00BA6E0B /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 087DD18F24BBB2AB00BA6E0B /* List.cpp */; };
 		087DD19624BBB2AD00BA6E0B /* Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 087DD19324BBB2AC00BA6E0B /* Hash.cpp */; };
@@ -53,6 +54,8 @@
 		0827B6F024C6620E0051C17C /* BreadthFirstSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BreadthFirstSearch.cpp; sourceTree = "<group>"; };
 		0827B6F224C6622E0051C17C /* DepthFirstSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DepthFirstSearch.cpp; sourceTree = "<group>"; };
 		0827B6F324C6622E0051C17C /* DepthFirstSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DepthFirstSearch.hpp; sourceTree = "<group>"; };
+		0846250A256B07C100393315 /* GreenBookProb1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreenBookProb1.cpp; sourceTree = "<group>"; };
+		0846250B256B07C100393315 /* GreenBookProb1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreenBookProb1.hpp; sourceTree = "<group>"; };
 		087DD18524BBABDC00BA6E0B /* ChernoCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChernoCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		087DD18824BBABDC00BA6E0B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		087DD18F24BBB2AB00BA6E0B /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = List.cpp; path = "../../../Downloads/DataStructures-master/DataStructures/dsa/DataStructures/List.cpp"; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		087DD17C24BBABDC00BA6E0B = {
 			isa = PBXGroup;
 			children = (
+				0846250A256B07C100393315 /* GreenBookProb1.cpp */,
+				0846250B256B07C100393315 /* GreenBookProb1.hpp */,
 				087DD18724BBABDC00BA6E0B /* ChernoCpp */,
 				087DD18624BBABDC00BA6E0B /* Products */,
 			);
@@ -224,6 +229,7 @@
 				08B0C4E824BCE149006951BD /* BinarySearch.cpp in Sources */,
 				0827B6EB24C489340051C17C /* Dijkstras.cpp in Sources */,
 				087DD19D24BBB7A400BA6E0B /* ThreadDemo.cpp in Sources */,
+				0846250C256B07C100393315 /* GreenBookProb1.cpp in Sources */,
 				08B6D04A24D7C31500AB87CA /* HashSet.cpp in Sources */,
 				0827B6F124C6620F0051C17C /* BreadthFirstSearch.cpp in Sources */,
 				08B0C4F124BEC070006951BD /* ThreadPool.cpp in Sources */,
