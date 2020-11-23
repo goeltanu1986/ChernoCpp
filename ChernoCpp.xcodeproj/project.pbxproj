@@ -33,6 +33,16 @@
 		08DEE361254FB921009B2734 /* RingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08DEE35F254FB921009B2734 /* RingBuffer.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		08462525256B45A500393315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08462521256B45A400393315 /* LeetCodeAlgos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08462517256B45A400393315;
+			remoteInfo = LeetCodeAlgos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		087DD18324BBABDC00BA6E0B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +66,7 @@
 		0827B6F324C6622E0051C17C /* DepthFirstSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DepthFirstSearch.hpp; sourceTree = "<group>"; };
 		0846250A256B07C100393315 /* GreenBookProb1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreenBookProb1.cpp; sourceTree = "<group>"; };
 		0846250B256B07C100393315 /* GreenBookProb1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreenBookProb1.hpp; sourceTree = "<group>"; };
+		08462521256B45A400393315 /* LeetCodeAlgos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LeetCodeAlgos.xcodeproj; path = LeetCodeAlgos/LeetCodeAlgos.xcodeproj; sourceTree = "<group>"; };
 		087DD18524BBABDC00BA6E0B /* ChernoCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChernoCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		087DD18824BBABDC00BA6E0B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		087DD18F24BBB2AB00BA6E0B /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = List.cpp; path = "../../../Downloads/DataStructures-master/DataStructures/dsa/DataStructures/List.cpp"; sourceTree = "<group>"; };
@@ -103,11 +114,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08462522256B45A400393315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08462526256B45A500393315 /* LeetCodeAlgos */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		087DD17C24BBABDC00BA6E0B = {
 			isa = PBXGroup;
 			children = (
-				0846250A256B07C100393315 /* GreenBookProb1.cpp */,
-				0846250B256B07C100393315 /* GreenBookProb1.hpp */,
+				08462521256B45A400393315 /* LeetCodeAlgos.xcodeproj */,
 				087DD18724BBABDC00BA6E0B /* ChernoCpp */,
 				087DD18624BBABDC00BA6E0B /* Products */,
 			);
@@ -128,6 +146,8 @@
 				087DD19224BBB2AC00BA6E0B /* DoubleList.hpp */,
 				087DD19324BBB2AC00BA6E0B /* Hash.cpp */,
 				087DD19024BBB2AC00BA6E0B /* Hash.hpp */,
+				0846250A256B07C100393315 /* GreenBookProb1.cpp */,
+				0846250B256B07C100393315 /* GreenBookProb1.hpp */,
 				087DD18F24BBB2AB00BA6E0B /* List.cpp */,
 				087DD19124BBB2AC00BA6E0B /* List.hpp */,
 				087DD18824BBABDC00BA6E0B /* main.cpp */,
@@ -214,12 +234,28 @@
 			mainGroup = 087DD17C24BBABDC00BA6E0B;
 			productRefGroup = 087DD18624BBABDC00BA6E0B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 08462522256B45A400393315 /* Products */;
+					ProjectRef = 08462521256B45A400393315 /* LeetCodeAlgos.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				087DD18424BBABDC00BA6E0B /* ChernoCpp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		08462526256B45A500393315 /* LeetCodeAlgos */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = LeetCodeAlgos;
+			remoteRef = 08462525256B45A500393315 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		087DD18124BBABDC00BA6E0B /* Sources */ = {
